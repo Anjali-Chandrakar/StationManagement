@@ -46,9 +46,11 @@ public class Station implements Serializable {
 		this.id = id;
 	}
 
+	
+
 	@Override
 	public String toString() {
-		return "Station [id=" + id + ", station_name=" + stationName + "]";
+		return "Station [id=" + id + ", stationName=" + stationName + "]";
 	}
 
 	@Column(name="name", nullable = false)
