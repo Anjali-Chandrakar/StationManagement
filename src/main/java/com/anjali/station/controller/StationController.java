@@ -1,4 +1,4 @@
-package com.anjali.station;
+package com.anjali.station.controller;
 
 import java.util.List;
 import java.util.Locale;
@@ -15,9 +15,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.anjali.station.StationService;
-import com.anjali.station.Constants;
-import com.anjali.station.StationVo;
+import com.anjali.station.model.Station;
+import com.anjali.station.service.StationService;
+import com.anjali.station.util.Constants;
+import com.anjali.station.vo.StationVo;
 
 @RestController
 @RequestMapping(value = Constants.IRCTC_STATION)

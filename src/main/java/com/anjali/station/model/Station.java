@@ -1,4 +1,4 @@
-package com.anjali.station;
+package com.anjali.station.model;
 
 import java.io.Serializable;
 

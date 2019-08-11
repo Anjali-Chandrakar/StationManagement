@@ -1,4 +1,4 @@
-package com.anjali.station;
+package com.anjali.station.vo;
 
 import java.io.Serializable;
 

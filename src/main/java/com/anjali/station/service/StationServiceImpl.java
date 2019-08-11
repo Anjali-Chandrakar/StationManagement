@@ -1,4 +1,4 @@
-package com.anjali.station;
+package com.anjali.station.service;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -9,11 +9,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.anjali.station.StationDao;
-import com.anjali.station.Station;
-import com.anjali.station.StationService;
-import com.anjali.station.Constants;
-import com.anjali.station.StationVo;
+import com.anjali.station.dao.StationDao;
+import com.anjali.station.model.Station;
+import com.anjali.station.util.Constants;
+import com.anjali.station.vo.StationVo;
 
 @Component
 public class StationServiceImpl implements StationService {

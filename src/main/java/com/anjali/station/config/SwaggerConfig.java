@@ -27,7 +27,7 @@ public class SwaggerConfig {
                + " TERADATA INDIA PVT. LTD, PUNE, MAHARASHTRA, INDIA",
                "1.0",
                "Terms of Service:TERADATA INDIA PVT. LTD",
-               new Contact("Anjali Chandrakar","7898390234",
+               new Contact("Anjali Chandrakar","7898301234",
                        "anjali.chandrakar@teradata.com"),
                "New Hire Assignment",
                "https://www.teradata.com/"

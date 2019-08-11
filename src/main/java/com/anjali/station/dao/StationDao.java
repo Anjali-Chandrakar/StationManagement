@@ -1,11 +1,12 @@
-package com.anjali.station;
+package com.anjali.station.dao;
 
 import java.io.Serializable;
 import java.util.Optional;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import com.anjali.station.Station;
+
+import com.anjali.station.model.Station;
 
 @Repository
 public interface StationDao<T extends Station,Integer extends Serializable> extends CrudRepository<T, Integer> {
